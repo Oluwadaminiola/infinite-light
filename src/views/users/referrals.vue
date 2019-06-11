@@ -1,0 +1,65 @@
+<template>
+  <div class="main">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <h4>
+          <img src="../../assets/img/refer.svg" alt="referrals">&nbsp; Referrals
+        </h4>
+      </div>
+      <div class="col-lg-6 col-xs-12 mb-3">
+        <div class="dashboard">
+          <div class="row">
+            <div class="col-8">
+              <p class="p-16">Total Units Earned</p>
+              <h2 class="h-42">3200</h2>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/units.svg" alt="referrals">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xs-12 mb-3">
+        <div class="dashboard">
+          <div class="row">
+            <div class="col-8">
+              <p class="p-16">Total Number of Referrals</p>
+              <h2 class="h-42">32</h2>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/referrals.svg" alt="referrals">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="dashboard">
+          <p class="p-16">Refer your friends and you can both benefit.</p>
+          <p class="p-16">
+            For every friend you refer to our great electricity service, We’ll give you both 500 Electricity Unit.
+            The more friends you refer, the more unit you can receive
+          </p>
+          <p class="p-16">
+            Share our link on
+          </p>
+          <p>
+            <a href="#">
+              <img src="../../assets/img/soc (1).png" alt="" height="50px;">
+            </a>
+            <a href="#" class="pl-4">
+              <img src="../../assets/img/soc (2).png" alt="" height="50px;">
+            </a>
+            <a href="#" class="pl-4">
+              <img src="../../assets/img/soc (3).png" alt="" height="50px;">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {};
+</script>
+<style scoped>
+</style>

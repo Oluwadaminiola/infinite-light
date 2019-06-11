@@ -1,0 +1,20 @@
+<svg id="twotone-timer-24px_4_" data-name="twotone-timer-24px (4)" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #323366;
+      }
+
+      .cls-2 {
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <path id="Path" class="cls-1" d="M0,0H30V30H0Z"/>
+  <path id="Shape" class="cls-2" d="M8.75,17.5A8.753,8.753,0,0,1,2.561,2.561,8.753,8.753,0,0,1,14.939,14.939,8.694,8.694,0,0,1,8.75,17.5ZM7.5,2.5V10H10V2.5Z" transform="translate(6.338 7.513)"/>
+  <path id="Shape-2" data-name="Shape" class="cls-3" d="M11.25,26.238a11.25,11.25,0,1,1,0-22.5,11.141,11.141,0,0,1,7.025,2.475L20.05,4.438A13.858,13.858,0,0,1,21.812,6.2L20.038,7.975A11.242,11.242,0,0,1,11.25,26.238Zm0-19.988a8.744,8.744,0,1,0,6.189,2.561A8.693,8.693,0,0,0,11.25,6.25Zm1.249,10H10V8.75h2.5v7.5ZM15,2.5H7.5V0H15V2.5Z" transform="translate(3.838 1.263)"/>
+</svg>

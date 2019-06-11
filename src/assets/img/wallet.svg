@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #d8d8d8;
+      }
+
+      .cls-2 {
+        opacity: 0.3;
+      }
+
+      .cls-3 {
+        fill: #323366;
+      }
+    </style>
+  </defs>
+  <g id="twotone-account_balance_wallet-24px" transform="translate(0 0)">
+    <path id="Path" class="cls-1" d="M0,0H30V30H0Z"/>
+    <path id="Path-2" data-name="Path" class="cls-2" d="M10,15a2.507,2.507,0,0,1-2.5-2.5V5A2.507,2.507,0,0,1,10,2.5h7.5V0H0V17.5H17.5V15Z" transform="translate(6.25 6.25)"/>
+    <path id="Shape" class="cls-3" d="M20,22.5H2.5A2.5,2.5,0,0,1,0,20V2.5A2.5,2.5,0,0,1,2.5,0H20a2.5,2.5,0,0,1,2.5,2.5V5.35A2.5,2.5,0,0,1,23.75,7.5V15a2.494,2.494,0,0,1-1.25,2.15V20A2.5,2.5,0,0,1,20,22.5ZM2.5,2.5V20H20V17.5H12.5A2.5,2.5,0,0,1,10,15V7.5A2.5,2.5,0,0,1,12.5,5H20V2.5Zm10,5V15h8.75V7.5Z" transform="translate(3.75 3.75)"/>
+    <circle id="Oval" class="cls-4" cx="1.875" cy="1.875" r="1.875" transform="translate(18.125 13.125)"/>
+  </g>
+</svg>

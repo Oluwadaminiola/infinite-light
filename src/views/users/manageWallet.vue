@@ -1,0 +1,114 @@
+<template>
+  <div class="main">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex row px-3">
+          <div>
+            <h4>
+              <img src="../../assets/img/manageWallet.svg" alt="Dashboard">&nbsp; Manage Wallet
+            </h4>
+          </div>
+          <div class="ml-auto">
+            <button class="btn btnOutOrange">RECHARGE NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mt-4 mb-4">
+        <div class="walletBalance text-center">
+          <p>
+            <b>
+              8,000.00
+              <sup>NGN</sup>
+            </b>
+            <br>
+            <small class="p-14" style="color: #707070;">Wallet Balance</small>
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xs-12">
+        <div class="creditCard">
+          <div class="row">
+            <div class="col-9">
+              <p class="p-12" style="letter-spacing: 1.8px; color: #707070;">6453 **** **** *742</p>
+              <small class="p-8">Expires 20/24</small>
+              <p class="p-10">Oluwaseun Xavier C.</p>
+            </div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xs-12">
+        <div class="creditCard">
+          <div class="row">
+            <div class="col-9">
+              <p class="p-12" style="letter-spacing: 1.8px;color: #707070;">6453 **** **** *742</p>
+              <small class="p-8">Expires 20/24</small>
+              <p class="p-10">Oluwaseun Xavier C.</p>
+            </div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xs-12">
+        <div class="addcreditCard">
+          <div class="row">
+            <div class="col-9"></div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mt-4">
+        <div class="dashboard">
+          <div class="table-responsive-md">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>S/N</th>
+                  <th>DATE</th>
+                  <th>AMOUNT</th>
+                  <th>METER NUMBER</th>
+                  <th>PAYMENT METHOD</th>
+                  <th>NARRATIVE</th>
+                  <th>ACTION</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Wed April 29, 2016. 13:00</td>
+                  <td>5,000</td>
+                  <td>76542345653</td>
+                  <td>PayPal</td>
+                  <td>Electricity</td>
+                  <td>
+                    <a href="#" class="p-14">
+                      <i class="ion-android-expand" style="color: #2fe666;"></i>&nbsp; Re - Initiate
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Wed April 29, 2016. 13:00</td>
+                  <td>5,000</td>
+                  <td>76542345653</td>
+                  <td>PayPal</td>
+                  <td>Aitime Recharge</td>
+                  <td>
+                    <a href="#" class="p-14">
+                      <i class="ion-android-expand" style="color: #2fe666;"></i>&nbsp; Re - Initiate
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {};
+</script>
+<style scoped>
+</style>
