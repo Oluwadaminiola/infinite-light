@@ -180,7 +180,7 @@
             <div class="col-12">
               <button
                 class="btn btnOutOrange w-100 ml-0"
-                style="font-size: 13px; height: 40px;"
+                style="font-size: 13px; height: 40px; background: #fafafa;"
               >TOP UP WALLET</button>
             </div>
             <div class="col-12 mt-4">
@@ -219,6 +219,7 @@
         </div>
       </div>
     </div>
+ 
   </div>
 </template>
 <script>

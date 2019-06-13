@@ -52,7 +52,7 @@
 
           <!-- Tab panes -->
           <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active py-5 px-3" id="paybill">
+            <div role="tabpanel" class="tab-pane active py-5 px-3" id="paybill" v-if="paybill">
               <div class="row">
                 <div class="col-lg-7 col-xs-12">
                   <div class="row">
@@ -60,25 +60,29 @@
                       <p class="p-17">What do want to do?</p>
                       <p class="p-14">Select bill below to continue</p>
                       <div class="selectBox mt-3">
-                        <select name id class="form-control">
-                          <option value>Electricity</option>
-                          <option value>Water</option>
-                          <option value>Heat</option>
+                        <select name id class="form-control" v-model="selectBill" @change="selectB">
+                          <option value="Electricity">Electricity</option>
+                          <option value="Water">Water</option>
+                          <option value="Heat">Heat</option>
                         </select>
                       </div>
-                      <div class="selectBox mt-3">
-                        <select name id class="form-control">
-                          <option value>Electricity</option>
-                          <option value>Water</option>
-                          <option value>Heat</option>
-                        </select>
-                      </div>
-                      <div class="selectBox mt-3">
-                        <select name id class="form-control">
-                          <option value>Electricity</option>
-                          <option value>Water</option>
-                          <option value>Heat</option>
-                        </select>
+                      <div class="" v-if="billSelected">
+                        <div class="selectBox mt-3">
+                          <select name id class="form-control">
+                            <option value>Select State</option>
+                            <option value>Abuja</option>
+                            <option value>Lagos</option>
+                            
+                          </select>
+                        </div>
+                        <div class="selectBox mt-3">
+                          <select name id class="form-control">
+                            <option value>Select Disco</option>
+                            <option value>Abuja</option>
+                            <option value>Lagos</option>
+                          </select>
+                        </div>
+                        <input type="text" class="form-control mt-3" style="height: 40px;" placeholder="Enter Meter Number">
                       </div>
                       <p class="p-17 mt-5">How much do you want?</p>
                       <input type="text" class="form-control mt-3 mb-4">
@@ -87,13 +91,13 @@
                       <button class="btn btn-White mb-2 mr-2 w-100">CANCEL</button>
                     </div>
                     <div class="col-lg-6 col-xs-12">
-                      <button class="btn btn-Orange mb-2 w-100">CONTINUE</button>
+                      <button class="btn btn-Orange mb-2 w-100" @click="gotoPay"  >CONTINUE</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div role="tabpanel" class="tab-pane py-5" id="payment">
+            <div role="tabpanel" class="tab-pane py-5" id="payment" v-if="payment">
               <div class="col-lg-7 m-auto">
                 <div class="row">
                   <div class="col-12">
@@ -155,7 +159,7 @@
                 </div>
               </div>
             </div>
-            <div role="tabpanel" class="tab-pane py-5" id="review">
+            <div role="tabpanel" class="tab-pane py-5" id="review" v-if="review">
               <div class="col-lg-7 m-auto">
                 <div class="row">
                   <div class="col-12">
@@ -173,7 +177,7 @@
                 </div>
               </div>
             </div>
-            <div role="tabpanel" class="tab-pane py-5" id="done">
+            <div role="tabpanel" class="tab-pane py-5" id="done" v-if="done">
               <div class="container">
                 <div class="row">
                   <div class="col-12 mb-3">
@@ -245,6 +249,7 @@
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
@@ -252,7 +257,34 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data(){
+    return{
+      selectBill: '',
+      paybill: true,
+      payment: false,
+      review: false,
+      done: false,
+      billSelected: false,
+    }
+  },
+  methods:{
+    selectB(){
+      if(this.selectBill == "Electricity"){
+        this.billSelected = true;
+      }
+      else{
+        this.billSelected = false;
+      }
+    },
+    gotoPay(){
+      this.paybill = false;
+      this.payment = true;
+      this.review = false;
+      this.done = false;
+    }
+  }
+};
 </script>
 <style scoped>
 </style>

@@ -25,36 +25,56 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-4 col-xs-12">
+      <div class="col-lg-4 col-xs-12 mb-2">
         <div class="creditCard">
           <div class="row">
+            <div class="col-10 mb-2">
+              <img src="../../assets/img/applepay.png" alt="" height="15px;">
+            </div>
+            <div class="col-2">
+              <a href="#" >
+                <img src="../../assets/img/more.svg" alt="more">
+              </a>
+            </div>
             <div class="col-9">
               <p class="p-12" style="letter-spacing: 1.8px; color: #707070;">6453 **** **** *742</p>
               <small class="p-8">Expires 20/24</small>
               <p class="p-10">Oluwaseun Xavier C.</p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-3 pt-3">
+              <img src="../../assets/img/card-chip.png" alt="" height="35px;">
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-xs-12">
+      <div class="col-lg-4 col-xs-12 mb-2">
         <div class="creditCard">
           <div class="row">
+            <div class="col-10 mb-2">
+              <img src="../../assets/img/paypal.png" alt="" height="30px;">
+            </div>
+            <div class="col-2">
+              <a href="#" >
+                <img src="../../assets/img/more.svg" alt="more">
+              </a>
+            </div>
             <div class="col-9">
               <p class="p-12" style="letter-spacing: 1.8px;color: #707070;">6453 **** **** *742</p>
               <small class="p-8">Expires 20/24</small>
               <p class="p-10">Oluwaseun Xavier C.</p>
             </div>
-            <div class="col-3"></div>
+            <div class="col-3 pt-3">
+              <img src="../../assets/img/card-chip.png" alt="" height="35px;">
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-xs-12">
+      <div class="col-lg-4 col-xs-12 mb-2">
         <div class="addcreditCard">
-          <div class="row">
-            <div class="col-9"></div>
-            <div class="col-3"></div>
-          </div>
+          <p class="text-center">
+            <img src="../../assets/img/plus.svg" alt="add"><br>
+            <small>Add Wallet</small>
+          </p>
         </div>
       </div>
       <div class="col-12 mt-4">
@@ -105,6 +125,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 <script>

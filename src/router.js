@@ -2,6 +2,9 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
 
+import Login from './components/auth/login'
+import Signup from './components/auth/signup'
+
 import User from './components/layout/userLayout';
 import userDashboard from './views/users/dashboard';
 import Help from './views/users/help';
@@ -15,11 +18,21 @@ import ChangePassword from './views/users/changePassword';
 import Adminside from './components/layout/adminLayout';
 
 Vue.use(Router);
-
+/* eslint-disable */ 
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
+    {
+      path: '/login',
+      name: 'login',
+      component: Login,
+    },
+    {
+      path: '/signup',
+      name: 'signup',
+      component: Signup,
+    },
     {
       path: '/',
       name: 'home',

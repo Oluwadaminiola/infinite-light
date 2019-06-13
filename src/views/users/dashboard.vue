@@ -17,6 +17,7 @@
             <small class="p-14" style="color: #707070;">Wallet Balance</small>
           </p>
         </div>
+      
       </div>
       <div class="col-12 mt-4">
         <div class="dashboard">

@@ -6,6 +6,7 @@
           <img src="../../assets/img/settings.svg" alt="Dashboard">&nbsp; Settings
         </h4>
       </div>
+      
       <div class="col-12 mt-4">
         <div class="dashboard">
           <div class="row">
