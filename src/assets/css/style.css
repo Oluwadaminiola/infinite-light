@@ -6,8 +6,16 @@
     src: url('../fonts/futura/Futura Book font.ttf');
     font-family: Futura;
 }
+@font-face{
+  src: url('../fonts/source sans pro/SourceSansPro-Regular.ttf');
+  font-family: Source sans pro;
+}
 body{
     background: #fff;
+}
+nav.admin{
+  background: #fff !important;
+  border-bottom: 1px solid #e8e8e8;
 }
 nav.fixed-top{
     background: #f3f3f3;
@@ -259,7 +267,7 @@ input[type='text'], input[type='tel'], input[type='email'], input[type='password
   font-family: avenir;
 }
 .oTxt{
-    font-family: Avenir;
+  font-family: Avenir;
   font-size: 14px;
   color: #f16722;
 }
@@ -628,6 +636,11 @@ select{
   background-color: #f7f7f7;
   min-height: 260px;
   }
+
+  .v-sidebar-menu {
+    max-width: 250px !important;
+    background: #fafafa !important;
+  }
 @media only screen and (max-width: 600px) {
     #home h3{
       font-size: 12px;
@@ -648,4 +661,101 @@ select{
     .table tbody td{
       font-size: 12px;
     }
+    .s-14{
+      font-size: 12px;
+    }
+}
+
+
+/* admin */
+.adh5{
+  font-size: 16px;
+  font-family: Source sans pro;
+  color: #31384c;
+  line-height: 0.81;
+  font-weight: 600;
+}
+.s-14{
+  font-family: source sans pro;
+  font-size: 14px;
+}
+.input-group.admin{
+ /* max-width: 600px; */
+ border: none;
+ border-radius: none !important;
+ color: #31384c;
+}
+.input-group.admin ::placeholder{
+ color: #31384c;
+}
+.input-group.admin input[type ='text']{
+ color: #31384c;
+ font-family: Source sans pro;
+}
+.input-group.admin input.form-control:focus{
+ box-shadow: none !important;
+ border-radius: 0 !important;
+  font-family: source sans pro;
+  border-top: none;
+ color: #31384c;
+ border-left: none;
+ border-right: none;
+ border-bottom: 1px solid #31384c;
+}
+.adminA input{
+  border-radius: 0;
+  height: 48px;
+  color: #4d4f5c;
+  font-family: Source sans pro;
+  border: 1px solid #e6e9ec;
+}
+.lightBox{
+  border: solid 1px #e6e9ec;
+  background-color: #ffffff;
+  padding: 15px;
+  color: #4d4f5c;
+}
+
+.dropdown-menu .dropdown-item{
+  font-family: Avenir;
+  font-size: 13px;
+  color: #4d4f5c;
+  transition: .3s ease-in-out;
+}
+.dropdown-menu .dropdown-item:hover{
+  color: #fff;
+  background: #f16722;
+}
+.adminA textarea{
+  border-radius: 0 !important;
+  font-family: Source sans pro;
+  font-size: 14px;
+  border: 1px solid #e6e9ec;
+  color: #4d4f5c;
+}
+.selectBox3 select.form-control{
+  height: 48px;
+  border-radius: 0 !important;
+  font-family: Source sans pro;
+  font-size: 14px;
+  border: 1px solid #e6e9ec;
+  color: #4d4f5c;
+}
+.selectBox3 select.form-control:focus, .adminA input.form-control:focus, .adminA textarea:focus{
+  box-shadow: none;
+  border: 1px solid #f16722;
+}
+.selectBox3:after{
+  content:"\f107 ";
+  font-family: FontAwesome; 
+  color: #31384c;
+  position: absolute;
+  right: 0px;
+  /* margin-right: -10px; */
+  margin-top: -38px;
+  font-size: 20px;
+  z-index: 1;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
 }

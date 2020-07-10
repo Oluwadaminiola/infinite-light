@@ -6,6 +6,7 @@ import Login from './components/auth/login'
 import Signup from './components/auth/signup'
 
 import User from './components/layout/userLayout';
+
 import userDashboard from './views/users/dashboard';
 import Help from './views/users/help';
 import History from './views/users/history';
@@ -16,6 +17,9 @@ import Profile from './views/users/profile';
 import ChangePassword from './views/users/changePassword';
 
 import Adminside from './components/layout/adminLayout';
+import Feeds from './views/admin/feeds'
+import IssueForm from './views/admin/issue_form'
+import AddDisco from './views/admin/add_disco'
 
 Vue.use(Router);
 /* eslint-disable */ 
@@ -97,6 +101,23 @@ export default new Router({
       path: '/admin',
       name: 'admin',
       component: Adminside,
+      children: [
+        {
+          path: 'feeds',
+          name: 'feeds',
+          component: Feeds
+        },
+        {
+          path: 'issueform',
+          name: 'issueform',
+          component: IssueForm
+        },
+        {
+          path: 'addDisco',
+          name: 'addDisco',
+          component: AddDisco
+        },
+      ]
     },
   ],
 });

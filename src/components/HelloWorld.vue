@@ -504,10 +504,18 @@
             <img src="../assets/img/sbsc.svg" alt="SBSC">&nbsp; Copyright © 2019. All rights reserved.
           </div>
           <div class="ml-auto">
-            <i class="ion-social-facebook"></i>
-            <i class="ion-social-facebook"></i>
-            <i class="ion-social-facebook"></i>
-            <i class="ion-social-facebook"></i>
+            <a class="pl-4">
+              <i class="ion-social-facebook"></i>
+            </a>
+            <a class="pl-4">
+              <i class="fa fa-google-plus"></i>
+            </a>
+            <a class="pl-4">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a class="pl-4">
+              <i class="fa fa-twitter "></i>
+            </a>
           </div>
         </div>
       </div>
@@ -558,7 +566,7 @@ export default {
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: "Read more";
+  content: "Read more...";
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
@@ -568,11 +576,11 @@ export default {
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
-  padding: 0 0.5em;
-  color: #666;
+  /* padding: 0 0.5em; */
+  color: #f16722;
   font-size: 0.9em;
-  line-height: 2;
-  border: 1px solid #ddd;
+  /* line-height: 2; */
+  /* border: 1px solid #ddd; */
   border-radius: 0.25em;
 }
 
